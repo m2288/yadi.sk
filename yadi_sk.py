@@ -27,3 +27,4 @@ else:
 
 #print(list(y.listdir(input("qovlugu daxil et:\n"))))
 y.download(input("Yuklenecek faylin Yadi.sk-deki tam unvani: "), input("Hansi adla saxlansin :"))
+print("Emeliyyat basa catdi.")
