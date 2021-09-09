@@ -1,8 +1,10 @@
 installation: pip install yadisk or pip3 install yadisk
 
-# create new app: https://oauth.yandex.ru/
-# get token: https://oauth.yandex.ru/authorize?response_type=token&client_id=YOUR_ID
-# # #  #  #  #  #  commands:  #  #  #  # 
+# create new app: 
+https://oauth.yandex.ru/
+# get token: 
+https://oauth.yandex.ru/authorize?response_type=token&client_id=YOUR_ID
+# * * * * * * *  commands:  * * * * * * *   # 
 
 
 import yadisk
