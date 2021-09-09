@@ -25,5 +25,5 @@ else:
     print("Sehv oldu...")
     
 
-print(list(y.listdir("/")))
-y.download(input("Yuklenecek fayl"), input("Hansi adla saxlansin"))
+#print(list(y.listdir(input("qovlugu daxil et:\n"))))
+y.download(input("Yuklenecek faylin Yadi.sk-deki tam unvani: "), input("Hansi adla saxlansin :"))
