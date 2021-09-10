@@ -1,5 +1,5 @@
 #Yandexden fayl yukleme
-
+print("Type Yandex.Disk REST API's ID and Password from oauth.yandex.com clients !")
 import sys
 import yadisk
 id = input("id: ")
@@ -7,7 +7,7 @@ psw = input("password: ")
 y = yadisk.YaDisk(id, psw)
 url = y.get_code_url()
 
-print("Bu linke tikle: %s" % url)
+print("Bu linke tikla: %s" % url)
 code = input("Tesdiq kodunu daxil et: ")
 
 try:
@@ -26,5 +26,5 @@ else:
     
 
 #print(list(y.listdir(input("qovlugu daxil et:\n"))))
-y.download(input("Yuklenecek faylin Yadi.sk-deki tam unvani: "), input("Hansi adla saxlansin :"))
+y.download(input("Yuklenecek faylin Yadi.sk-deki tam unvani: "), input("Hansi adla saxlansin: "))
 print("Emeliyyat basa catdi.")
